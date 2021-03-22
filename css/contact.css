@@ -1,0 +1,128 @@
+body {
+  width: 100vw;
+}
+/* header */
+#header {
+  height: 70px;
+  z-index: 500;
+}
+.header_wrap {
+  display: flex;
+  justify-content: space-between;
+  line-height: 70px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+.header_left {
+  margin-left: 2%;
+  font-size: 25px;
+  font-weight: bold;
+}
+.header_right ul {
+  display: flex;
+}
+.header_right li {
+  list-style: none;
+  margin-right: 30px;
+  font-weight: bold;
+}
+.header_right a {
+  text-decoration: none;
+  color: #000000;
+}
+.header_right a:hover {
+  opacity: 0.8;
+}
+/* top */
+#top {
+  background-image: url(../img/mv.png);
+  background-size: cover;
+  background-position: center;
+  padding: 6.5%;
+}
+.top_title {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* contact */
+#contact {
+  padding: 5% 20%;
+}
+span {
+  color: red;
+  padding-left: 5px;
+}
+.contact_wrap p{
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+.contact_wrap h3 {
+   margin-left: 25px;
+}
+.input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid rgba(188, 188, 188, 1.0) ;
+  margin-left: 25px;
+}
+.input2 {
+  width: 90%;
+  line-height: 180px;
+}
+.contact_btn {
+  text-align: center;
+  margin-top: 7px;
+}
+.button {
+  padding: 10px 120px;
+  background-color: #000000;
+  border: none;
+}
+.button a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+/* footer */
+#footer {
+  background-color: #222323;
+  color: #fff;
+  padding: 1.5% 1%;
+}
+.footer_wrap {
+  display: flex;
+  justify-content: space-around;
+}
+.footer_left {
+  font-size: 13px;
+}
+.footer_right ul {
+  display: flex;
+}
+.footer_right li {
+  font-size: 13px;
+  list-style: none;
+  display: inline;
+  list-style-type: none;
+  margin-right: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #999;
+  opacity: 0.8;
+}
+#footer .first_list {
+  border-left: none;
+  padding-left: 0;
+}
+.footer_right a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer_right a:hover {
+  opacity: 0.8;
+}

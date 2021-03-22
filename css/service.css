@@ -1,0 +1,161 @@
+body {
+  width: 100vw;
+}
+/* header */
+#header {
+  height: 70px;
+  z-index: 500;
+}
+.header_wrap {
+  display: flex;
+  justify-content: space-between;
+  line-height: 70px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+.header_left {
+  margin-left: 2%;
+  font-size: 25px;
+  font-weight: bold;
+}
+.header_right ul {
+  display: flex;
+}
+.header_right li {
+  list-style: none;
+  margin-right: 30px;
+  font-weight: bold;
+}
+.header_right a {
+  text-decoration: none;
+  color: #000000;
+}
+.header_right a:hover {
+  opacity: 0.8;
+}
+/* top */
+#top {
+  background-image: url(../img/mv.png);
+  background-size: cover;
+  background-position: center;
+  padding: 6.5%;
+}
+.top_title {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* service */
+#service {
+  padding: 5% 10%;
+}
+.service_wrap {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-top: 1px solid #000000;
+}
+.service_wrap:nth-of-type(4) {
+  border-bottom: 1px solid #000000;
+}
+.service_img {
+  width: 40%;
+  margin-right: 3%;
+}
+.service_img img {
+  width: 100%;
+  display: block;
+}
+.service_message {
+  width: 100%;
+  line-height: 1.5;
+}
+.service_message h2 {
+  font-size: 25px;
+}
+/* contact */
+#contact {
+  background-color: #f5f6f9;
+  padding: 5% 0 2% 0;
+}
+.contact_wrap {
+  display: flex;
+  justify-content: center;
+}
+.contact_message {
+  text-align: center;
+  line-height: 2;
+}
+.contact_message h2 {
+  font-size: 30px;
+}
+.contact_message p {
+  margin-bottom: 10px;
+}
+.contact_btn {
+  margin: 0;
+}
+.contact_button {
+  padding: 13px 90px;
+}
+.service_btn {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.service_button {
+  margin: 30px 0 50px 0;
+  background-color: #cd0323;
+  padding: 13px 85px;
+  border: none;
+}
+.service_button a {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.service_button:hover {
+  opacity: 0.8;
+}
+
+/* footer */
+#footer {
+  background-color: #222323;
+  color: #fff;
+  padding: 1.5% 1%;
+}
+.footer_wrap {
+  display: flex;
+  justify-content: space-around;
+}
+.footer_left {
+  font-size: 13px;
+}
+.footer_right ul {
+  display: flex;
+}
+.footer_right li {
+  font-size: 13px;
+  list-style: none;
+  display: inline;
+  list-style-type: none;
+  margin-right: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #999;
+  opacity: 0.8;
+}
+#footer .first_list {
+  border-left: none;
+  padding-left: 0;
+}
+.footer_right a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer_right a:hover {
+  opacity: 0.8;
+}
