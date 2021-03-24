@@ -321,3 +321,157 @@ body {
 .footer_right a:hover {
   opacity: 0.8;
 }
+@media screen and (max-width: 768px) {
+  /* humberger */
+  #humberger {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 999;
+    top: 13px;
+    right: 25px;
+    transition: 0.4s;
+  }
+  #humberger span {
+    position: absolute;
+    left: 2px;
+    display: block;
+    width: 35px;
+    height: 3.5px;
+    background-color: #000000;
+    transition: 0.8s;
+  }
+  #humberger span:nth-of-type(1) {
+    top: 5px;
+  }
+  #humberger span:nth-of-type(2) {
+    top: 20px;
+  }
+  #humberger span:nth-of-type(3) {
+    top: 35px;
+  }
+   .header_right {
+    display: none;
+  }
+  .header_left {
+    margin-left: 30px;
+    font-size: 24px;
+  }
+  /* top */
+  #top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    height: 80vh;
+ }
+ .top_wrap {
+   position: static;
+   width: 80%;
+   margin: 0 auto;
+ }
+ .top_message {
+   text-align: center;
+   line-height: 1.5;
+ }
+ .tech_message {
+   padding: 75px 30px;
+ }
+ .tech_message h1 {
+   text-align: center;
+ }
+ .tech_message p {
+  
+ }
+ /* service */
+ .service_wrap {
+   width: 100%;
+ }
+ .service_container {
+   width: 100%;
+   margin-right: 25px;
+ }
+ .service_container p {
+   margin-bottom: 30px;
+ }
+ .service_container h3 {
+   font-size: 20px;
+ }
+ .service_button {
+   margin: 10px 0 50px 0;
+ }
+ /* news */
+  #news {
+    padding: 90px 30px;
+  }
+  .news_title {
+    line-height: 1.0;
+  }
+  .news_message1,
+  .news_message2,
+  .news_message3 {
+    padding: 13px;
+  }
+  .news_message1,
+  .news_message2,
+  .news_message3 {
+    box-sizing: border-box;
+  }
+  .news_message1 h3,
+  .news_message2 h3,
+  .news_message3 h3 {
+    font-size: 14px;
+    line-height: 1.0;
+  }
+  .news_message1 p,
+  .news_message2 p,
+  .news_message3 p {
+    font-size: 14px;
+    line-height: 1.0;
+    margin: 0;
+  }
+  /* blog */
+  .blog_wrap {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .blog_container {
+    width: 90%;
+    margin: 0 30px 0 30px;
+  }
+  .blog_container h3 {
+    font-size: 18px;
+  }
+  .blog_button {
+    margin-top: 40px;
+  }
+  /* company */
+  #company {
+    margin-bottom: 80px;
+  }
+  .company_text,
+  .recruit_text {
+    padding: 110px 0;
+  }
+  .company_text p,
+  .recruit_text p {
+    font-size: 25px;
+  }
+  /* footer */
+  #footer {
+    padding:90px 5px ;
+  }
+  .footer_wrap {
+    
+  }
+  .footer_right ul {
+  
+  }
+.footer_right li {
+  border: none;
+}
+#.footer_right a {
+  display: block;
+}
+}
