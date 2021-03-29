@@ -322,18 +322,21 @@ body {
   opacity: 0.8;
 }
 @media screen and (max-width: 768px) {
-  /*header*/
-   .header_wrap {
-    z-index: 999;
+  /* header */
+  header {
     position: fixed;
+    width: 100%;
+  }
+   .header_wrap {
+    z-index: 1;
   }
   /* humberger */
   #humberger {
     width: 40px;
     height: 40px;
-    position: absolute;
+    position: fixed;
     cursor: pointer;
-    z-index: 999;
+    z-index: 1;
     top: 13px;
     right: 25px;
     transition: 0.4s;
@@ -369,7 +372,8 @@ body {
     justify-content: center;
     align-items: center;
     line-height: 1.5;
-    height: 80vh;
+    height: 70vh;
+    padding-top: 70px;
  }
  .top_wrap {
    position: static;
@@ -378,16 +382,17 @@ body {
  }
  .top_message {
    text-align: center;
-   line-height: 1.5;
+   line-height: 1.7;
+   margin-bottom: 30px;
+ }
+ .top_message h1 {
+   margin-bottom: 0px;
  }
  .tech_message {
    padding: 75px 30px;
  }
  .tech_message h1 {
    text-align: center;
- }
- .tech_message p {
-  
  }
  /* service */
  .service_wrap {
