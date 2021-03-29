@@ -148,13 +148,21 @@ table td {
   opacity: 0.8;
 }
 @media screen and (max-width: 768px) {
+   /* header */
+  header {
+    position: fixed;
+    width: 100%;
+  }
+   .header_wrap {
+    z-index: 1;
+  }
   /* humberger */
   #humberger {
     width: 40px;
     height: 40px;
-    position: absolute;
+    position: fixed;
     cursor: pointer;
-    z-index: 999;
+    z-index: 1;
     top: 13px;
     right: 25px;
     transition: 0.4s;
@@ -247,4 +255,4 @@ table td {
   .last_list {
     margin-bottom: 10px;
   }
-}
+ }
