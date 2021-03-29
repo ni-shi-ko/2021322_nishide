@@ -160,13 +160,21 @@ body {
   opacity: 0.8;
 }
 @media screen and (max-width: 768px) {
+    /* header */
+  header {
+    position: fixed;
+    width: 100%;
+  }
+   .header_wrap {
+    z-index: 1;
+  }
   /* humberger */
   #humberger {
     width: 40px;
     height: 40px;
-    position: absolute;
+    position: fixed;
     cursor: pointer;
-    z-index: 999;
+    z-index: 1;
     top: 13px;
     right: 25px;
     transition: 0.4s;
@@ -202,7 +210,7 @@ body {
 }
  /* service */
  #service {
-   padding: 20% 10%;
+   padding: 20% 7.5%;
  }
  .service_wrap {
    width: 100%;
@@ -272,5 +280,4 @@ body {
 .last_list {
   margin-bottom: 10px;
 }
-
 }
