@@ -86,7 +86,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-right: 40px;
 }
 .service_container {
   width: 45%;
